@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    image: vth-app
+    ports:
+      - "8080:80"
+    restart: unless-stopped
